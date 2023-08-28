@@ -17571,6 +17571,27 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
   }
 }
 
+/* SEARCH INPUT STYLES */
+#top-search-trigger{
+  display: none;
+}
+
+.searchField{
+  margin-bottom: 40px;
+}
+.searchInputField{
+  margin-right: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.searchBtn{
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
 /* ----------------------------------------------------------------
 	Page Menu
 -----------------------------------------------------------------*/

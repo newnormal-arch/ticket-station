@@ -88,7 +88,7 @@
 					</nav>
 
 					<form class="top-search-form">
-						<input type="text" name="q" onclick="searchEvent()" id="search-input" class="form-control" value="" placeholder="Type &amp; Enter.." autocomplete="off">						
+						<input type="text" name="q" id="search-input" class="form-control" value="" placeholder="Type &amp; Enter.." autocomplete="off">
 					</form>
 
 					<div class="basket">
@@ -109,9 +109,14 @@
     <section id="content" style="background: linear-gradient(to bottom, white 0%, rgb(41, 40, 40) 70%) left top; padding: 100px 0; background-size: 100% 100%">
 		<div class="content-wrap">
 			<div class="container">
+				<div class="searchField">
+					<input type="text" id="searchField" placeholder="Search Events" class="searchInputField">
+					<button class="searchBtn btn btn-secondary" onclick="searchEvent()">Search</button>
+				</div>
 				<div class="fancy-title title-border">
 					<h3>Available Events</h3>
 				</div>
+				
 				<div class="row justify-content-center col-mb-50 mb-0">
                
 				</div>
@@ -169,7 +174,6 @@
     </header>
 
     <!-- UPCOMING EVENTS -->
-
     <section class="upcoming-events">
       
       <div class="event-grid">

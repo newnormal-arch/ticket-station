@@ -93,7 +93,7 @@
 
 function searchEvent() {
     const searchInput = document
-      .getElementById("search-input")
+      .getElementById("searchField")
       .value.toLowerCase();
     let elements = document.querySelectorAll(".event-name");
     let cards = document.querySelectorAll(".event-card");
